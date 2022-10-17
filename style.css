@@ -1,0 +1,150 @@
+body{
+    font-family: 'Montserrat-black', sans-serif;
+}
+h3{
+    font-family: "Montserrat-bold";
+    font-weight: bold;
+}
+h2{ font-weight: bold;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1;
+}
+p{
+    color: rgb(5, 5, 5);
+    font-size: larger;
+}
+
+        /*--------------- Header ------------*/
+#header{
+    background-color: #FFB344;
+    color: #fff;
+    
+}
+
+#header .container-fluid{
+    padding:3% 5% 15%;
+}
+
+.headerimg{
+    
+    position: absolute;
+    right: 20%;
+    /* height: 400px; */
+}
+
+
+/*--------------- About------------*/
+#about{
+    
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+    
+}
+.about{
+    text-align: center;
+}
+
+.aboutrow{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.aboutrow .col2 ul li .nav-item{
+    display: block;
+}
+.spanclass{
+    color: #00ABB3;
+    
+}
+
+#contact{
+    
+    background-color: #FFB344;  
+    color: white;
+    text-align: center;
+}
+#press{
+    background-color: #FFB344;
+    padding-bottom: 4%;
+    text-align: center;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+#download{
+    background-color: #FFB344;
+    text-align: center;
+    padding: 8% 8% 5% 8%;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    padding: 5%;
+}
+
+        /* class */
+.meeth1{
+    font-family: 'Montserrat-black', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+.navbar{
+    padding-bottom: 2rem;
+}
+.nav-item{
+    padding: 0 18px;
+    color: #fff;
+}
+.nav-link{
+    font-size: 1rem;
+
+    
+
+}
+.dwnbtn{
+  margin: 5% 3% 5% 0;  
+}
+
+.faicon{
+    color: rgb(247, 119, 0);
+    margin-bottom: 1rem;
+   
+}
+.faicon:hover{
+    color: #FFB344;
+}
+.imgcar{
+   width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+   
+}
+.pressimg{
+    width:6%;
+    border-radius: 20px;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+padding: 7% 15%;
+}
+.pricingcol{
+    padding: 3% 2%;
+}
+@media (max-width: 994px) {
+    .headerimg{
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+    #header{
+        text-align: center;
+        font-weight: bold;
+    }
+}
