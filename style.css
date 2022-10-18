@@ -60,37 +60,40 @@ p{
     
 }
 
+/*          connect      */
+
+#connect{
+    
+    background-color: #FFB344;  
+    color: white;
+    text-align: center;
+    
+}
+#connect .container-fluid{
+    padding: 7% 15%;
+}
+
+/*          projects   */
+#projects{
+    text-align: center;
+    height: 60vh;
+}
+#projects div{
+    padding: 7% 15%;
+}
+
 #contact{
     
     background-color: #FFB344;  
     color: white;
     text-align: center;
+    
 }
-#press{
-    background-color: #FFB344;
-    padding-bottom: 4%;
-    text-align: center;
-}
-#pricing{
-    padding: 100px;
-    text-align: center;
-}
-#download{
-    background-color: #FFB344;
-    text-align: center;
-    padding: 8% 8% 5% 8%;
-    color: #fff;
-}
+
+
 #footer{
     text-align: center;
     padding: 5%;
-}
-
-        /* class */
-.meeth1{
-    font-family: 'Montserrat-black', sans-serif;
-    size: 3rem;
-    line-height: 1.5;
 }
 
 
@@ -108,9 +111,7 @@ p{
     
 
 }
-.dwnbtn{
-  margin: 5% 3% 5% 0;  
-}
+
 
 .faicon{
     color: rgb(247, 119, 0);
@@ -120,23 +121,8 @@ p{
 .faicon:hover{
     color: #FFB344;
 }
-.imgcar{
-   width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-   
-}
-.pressimg{
-    width:6%;
-    border-radius: 20px;
-    margin: 20px 20px 50px;
-}
-.carousel-item{
-padding: 7% 15%;
-}
-.pricingcol{
-    padding: 3% 2%;
-}
+
+
 @media (max-width: 994px) {
     .headerimg{
         position: static;
